@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    flex-grow: 0;
+}
+
+.logo img{
+    width: 75px;
+    height: 53px;
+    margin-left: 10px;
+}
+
+.participantes img{
+    height: 47px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.chat {
+    background-color: #E5E5E5;
+    width: fit-content;
+    height:fit-content;
+    flex-grow: 1;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0;
+    background-color: #FFFFFF;
+}
+
+textarea {
+    width: 70%;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    height: 20px;
+    width: 85%;
+    text-align: align;
+
+}
+
+textarea::placeholder {
+    color: solid black;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+.enviar img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px
+} 
