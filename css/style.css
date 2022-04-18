@@ -37,6 +37,7 @@ header {
     margin-top: 80px;
     margin-bottom: 80px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 footer {
@@ -50,6 +51,7 @@ footer {
     flex-grow: 0;
     background-color: #FFFFFF;
 }
+
 
 textarea {
     width: 70%;
@@ -84,3 +86,29 @@ textarea:focus {
     height: 30px;
     margin-right: 10px
 } 
+
+ul {
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+li {
+    display: flex;
+    word-wrap: word-break;
+    font-size: 18px;
+    height: 40px;
+    break-before: all;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.cinza {
+    background-color: #DCDCDC;
+}

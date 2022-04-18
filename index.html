@@ -19,16 +19,17 @@
         <div class="participantes"><img src="./images/persons.svg" alt="Participantes"></div>
     </header>
 
-    <div class="chat"></div>
+    <ul class="chat">
+
+    </ul>
 
     <footer>
 
-        
-
-            <textarea name="input" id="hh" placeholder="Escreva aqui..." ></textarea>
-        <div class="enviar">  <img src="./images/enviar.svg" alt="Enviar"><div>
+            <textarea name="input" id="input" placeholder="Escreva aqui..." ></textarea>
+        <div class="enviar" onclick="enviarMensagem()">  <img src="./images/enviar.svg" alt="Enviar"><div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
