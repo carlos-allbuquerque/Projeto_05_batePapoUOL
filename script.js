@@ -1,14 +1,14 @@
 let chat =  document.querySelector(".chat");
-//const interval = 5000;
+
 let novaMensagem;
 let ultimaMensagem;
 
 function processarResposta(resposta) {
  	console.log(resposta.data);
 }
-
+prompt("Qual é o seu nome?");
 const objeto = {
-    name: "Kayn"
+    name: nome
 };
 
 EnviarDados(objeto);
